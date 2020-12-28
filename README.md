@@ -9,7 +9,7 @@ Create an application that generates a random password based on user-selected cr
 # Link to deployed site "   "
 
 # Screenshot:
-![Screenshot: Random Password Generator](Assets/PasswordGen SS.png)
+![Screenshot: Random Password Generator (Assets/PasswordGen SS.png)]
 
 ## Acceptance Criteria
 
