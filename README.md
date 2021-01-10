@@ -11,7 +11,7 @@ Create an application that generates a random password based on user-selected cr
 https://agile-garden-35252.herokuapp.com/
 
 # Screenshot:
-![Screenshot: Random Password Generator (Assets/PasswordGen SS.png)]
+<img src="./PasswordGen SS.png" (Assets/PasswordGen SS.png>
 
 ## Acceptance Criteria
 
