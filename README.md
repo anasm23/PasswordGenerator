@@ -12,6 +12,7 @@ https://agile-garden-35252.herokuapp.com/
 
 # Screenshot:
 <img src="https://raw.githubusercontent.com/anasm23/PasswordGenerator/main/Assets/PasswordGen%20SS.png">
+<img src="./Assets/Passwordgenerator07:19:21.png">
 
 ## Acceptance Criteria
 
