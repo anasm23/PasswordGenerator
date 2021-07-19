@@ -110,3 +110,11 @@ docGen.addEventListener("click", function() {
     //  
     docPass.textContent = generatedPassword;
 }});
+
+function copy(){
+    var copyText = document.querySelector("#password");
+    copyText.select();
+    document.execCommand("copy");
+    alert("Copied Password");
+    console.log(copyText);
+};
