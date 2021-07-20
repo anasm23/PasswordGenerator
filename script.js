@@ -2,8 +2,10 @@
 var docPass = document.querySelector("#password");
 var docGen = document.querySelector("#generate");
 
+console.log(docGen);
+
 // execute prompt when user clicks on generate button
-docGen.addEventListener("click", function() {
+docGen.addEventListener("click",function(){
      //  
      //
     var passlength = prompt("Choose a number of characters between 8 and 128.");
@@ -16,10 +18,10 @@ docGen.addEventListener("click", function() {
     // 
     //
     // Define characters
-   var lowercase ='abcdefghijklmnopqrstuvwxyz';
+   var lowercase = 'abcdefghijklmnoprstuvwxyz';
    var uppercase = "ABDCEFGHIJKLMNOPQRSTUVWXYZ";
    var numbers = "0123456789";
-   var special = "!@#$%^&*()";
+   var special = ")!@#$%^&*(";
    var generatedPassword = " ";
     //
     // Declare variables for password generation
@@ -34,6 +36,7 @@ docGen.addEventListener("click", function() {
     var h = numbers + lowercase;
     var j = numbers + uppercase;
     var k = lowercase + uppercase;
+    var l = lowercase;
     var i = 0;
     var char = "";
     //
@@ -44,14 +47,12 @@ docGen.addEventListener("click", function() {
             char = Math.floor(Math.random() * all.length);
             generatedPassword += all.charAt(char, char + 1);
         }
-    }
-    else if ((confLower === true) && (confUpper === true) && (confNum === true) && (confSpecial === false)) {
+    } else if ((confLower === true) && (confUpper === true) && (confNum === true) && (confSpecial === false)) {
         for (i = 0; i < passlength; i++) {
             char = Math.floor(Math.random() * a.length);
             generatedPassword += a.charAt(char, char + 1);
         }
-    }
-    else if ((confLower === true) && (confUpper === true) && (confNum === false) && (confSpecial === true)) {
+    } else if ((confLower === true) && (confUpper === true) && (confNum === false) && (confSpecial === true)) {
         for (i = 0; i < passlength; i++) {
             char = Math.floor(Math.random() * b.length);
             generatedPassword += b.charAt(char, char + 1);
@@ -62,13 +63,12 @@ docGen.addEventListener("click", function() {
             char = Math.floor(Math.random() * c.length);
             generatedPassword += c.charAt(char, char + 1);
         }
-    }
-    else if ((confLower === false) && (confUpper === true) && (confNum === true) && (confSpecial === true)) {
+    }else if ((confLower === false) && (confUpper === true) && (confNum === true) && (confSpecial === true)) {
         for (i = 0; i < passlength; i++) {
             char = Math.floor(Math.random() * d.length);
             generatedPassword += d.charAt(char, char + 1);
         }
-    }
+    } 
     else if ((confLower === false) && (confUpper === false) && (confNum === true) && (confSpecial === true)) {
         for (i = 0; i < passlength; i++) {
             char = Math.floor(Math.random() * e.length);
@@ -105,11 +105,18 @@ docGen.addEventListener("click", function() {
             generatedPassword += all.charAt(char, char + 1);
         }
     }
+    else if ((confLower === true) && (confUpper === false) && (confNum === false) && (confSpecial === false)) {
+        for (i = 0; i < passlength; i++) {
+            char = Math.floor(Math.random() * l.length);
+            generatedPassword += all.charAt(char, char + 1);
+        }
+    }
+}
     //
     //
     //  
     docPass.textContent = generatedPassword;
-}});
+});
 
 function copy(){
     var copyText = document.querySelector("#password");
