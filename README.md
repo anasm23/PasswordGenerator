@@ -44,8 +44,8 @@ function copy(){
 ```
 
 # Link to deployed site: 
+https://anasm23.github.io/PasswordGenerator/
 
-anasm23.github.io/PasswordGenerator/
 
 # Screenshot:
 <img src="https://raw.githubusercontent.com/anasm23/PasswordGenerator/main/Assets/PasswordGen%20SS.png">
