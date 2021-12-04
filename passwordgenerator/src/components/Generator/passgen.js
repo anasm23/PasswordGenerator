@@ -2,9 +2,6 @@ import React from "react";
 
 function passwordgen(){
     return(    <div class="wrapper">
-    <header>
-      <h1>Password Generator</h1>
-    </header>
     <div class="card">
       <div class="card-header">
         <h2>Generate a Password</h2>
