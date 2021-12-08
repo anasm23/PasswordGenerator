@@ -5,7 +5,6 @@ import "./style.css";
 function header(){
    return (<>
     <Card>
-      
       <Card.Body>
         <Card.Text>
             <div class="text">
@@ -16,7 +15,6 @@ function header(){
       </Card.Body>
     </Card>
   </>)
-    //    <div class="p-gen">Password Generator</div>);
 }
 
 export default header;
