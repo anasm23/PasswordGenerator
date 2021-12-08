@@ -4,8 +4,8 @@ import './index.css';
 function button(){
     return (
     <div class="card-footer">
-    <button id="generate" class="btn">Generate Password</button> 
-    <button class="copybtn" >Copy</button>
+    <button href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Generate Password</button> 
+    <button href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Copy</button>
   </div>);
 }
 

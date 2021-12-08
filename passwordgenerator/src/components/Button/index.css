@@ -2,3 +2,8 @@
     align-content: center;
     text-align: center;
 }
+
+.btn.btn-primary.btn-lg.active{
+    background-color: cadetblue;
+    border-color: black;
+}
