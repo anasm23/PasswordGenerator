@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.btn.btn-primary.btn-lg.active{
+  background-color:olivedrab
+}
+.display-5
+  {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(85%, -35%);
+  }
+  .check-space{
+    margin-right: 25px;
+  }
+  
+.card{
+  width: auto;
+}
