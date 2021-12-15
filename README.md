@@ -8,6 +8,6 @@ Application to generate a random password based on user criteria. This app will 
 https://passwordgenerator12321.herokuapp.com/
 
 ## DEMO
-<img src="./PassgenGif.gif"/>
+<img src="https://raw.githubusercontent.com/anasm23/PasswordGenerator/main/Assets/PassgenGif.gif"/>
 
 
